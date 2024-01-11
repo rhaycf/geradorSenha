@@ -7,7 +7,7 @@ import PySimpleGUI as sg
 # layout tela
 sg.theme("DarkGrey14")
 layout = [
-    [sg.Image("logo.png")],
+    [sg.Image("img/logo.png")],
     [sg.Text("Tamanho:", font="Poppins"),
         sg.Input(size=4, font="Poppins", key="tamanho", justification="center", pad=(20, 20)),
         sg.Text("caracteres", font="Poppins")],
