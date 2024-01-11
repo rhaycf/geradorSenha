@@ -16,7 +16,7 @@ layout = [
     [sg.InputText(size=23, font="Poppins", key="saida", justification="center"),
         sg.Button("Copiar", font="Poppins 11", button_color="#24292E")],
 ]
-tela = sg.Window("Senha Top", element_justification="center", layout=layout, size=(700, 350), finalize=True)
+tela = sg.Window("Gerador de Senha", element_justification="center", layout=layout, size=(700, 350), finalize=True)
 
 while True:
     event, values = tela.read()
